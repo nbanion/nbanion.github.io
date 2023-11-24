@@ -1,0 +1,15 @@
+---
+layout: default
+title: Scoping
+---
+<h1>Project Scoping</h1>
+
+<p>Project ideas with notes for scoping.</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
