@@ -1,4 +1,6 @@
 ---
+layout: default
+title: Scoping
 ---
 # Project Scoping
 
